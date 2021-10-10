@@ -1,0 +1,233 @@
+Git - SCM Tool  - Software Configuration Mgmt Tool
+
+Distributed Open Source SCM tool
+
+git-scm.com 
+
+
+version control system --- tracking all changes in your project
+
+
+Github, GitLab, BitBucket -- cloud implementation of git
+
+
+git is developed by --  linus torvalds
+
+Linux - open source OS 
+
+git client -- CUI based (character user interface) - with the help of command -- git bash  (GUI - Graphical User Interface)  
+
+
+
+
+Repository - Place where all the files & folders of the project will be stored/saved
+
+Local Repository (A Folder in the Local File System)
+
+Remote Repository (A URL in the web) .git -- git remote repository
+
+
+To Create/Initialize a local git repository
+git init 
+
+
+working Area   - a folder in your OS which is having .git folder in it
+staging area   - It's a temporary location used by git before commiting
+repo area      - All tracking files & folders
+
+
+
+Git Commands
+
+1) git init
+2) git status
+3) git add <filename> or . - to add the contents to staging area
+4) git rm <filename>     -- to unstage to working area
+5) git commit -m "commit message"
+6) git config --global user.name "siva"
+7) git config --global user.email "siva@gmail.com"
+8) git commit -a -m "commit message"   -- to add and commit at the same time
+9) git log
+10) git diff <commit_id1> <HEAD/commit_id2>
+11) git log --oneline
+12) git log --oneline --all --decorate --graph
+13) git remote add origin https://github.com/syskantechnosoft/day1.git
+14) git push -u origin master 
+15) git branch "feature1"    --- to create a new branch
+16) git checkout "feature1"  ---- to move to a particular branch
+
+
+
+syskantechnosoft  -- github username  
+
+
+
+
+
+JAVA - A Popular OOP [Object Oriented Programming] Platform Independent General purpose programming Lang
+
+1) Stand-alone (desktop) application [command line/gui based]   JAVA SE (Standard Edition)
+2) Web Application (client - server)  JAVA EE (Enterprise Edition) 
+
+
+Network/Socket/Scientific/DB related .... 
+
+Android OS = JAVA+Linux
+Big Data = Java 
+Pega = JAVA Based (Create Enterprise Level web/mobile app using no code)
+
+Security , Platform independent
+
+JDK  - Java Development Kit (for running, compiling, converting, documenting the java code) Supreset of JRE
+JRE - Java Run Time Environment (For Running Java Application) 
+JVM - Java Virtual Machine (A computer completely developed by the software )
+
+Invoke jvm -- java <byte_code>
+
+
+HelloWorld.java --- source code
+javac  -- java compiler 
+
+syntax
+javac HelloWorld.java    ------  HelloWorld.class
+HelloWorld.class   ---- byte code/object code
+
+
+Java uses the concept called WORA - Write Once and Run Anywhere
+
+Java uses both compiler & interpretor 
+
+JDK, JRE & JVM -- they all platform dependent 
+
+
+https://docs.oracle.com/javase/8/docs/api/
+
+adding JAVA_HOME to the env. variable
+
+JAVA_HOME   = C:/Program files/Java/jdk1.8.0_301 (add the system env variable)
+path = %JAVA_HOME%\bin (move it to the top)   (edit the path env variable)
+
+
+java  - to invoke jvm
+javac -- to invoke java compiler
+
+
+But, It's not pure OOP lang.
+
+1) primitive data types (int, float, char, double, long) - they are all non-object 
+
+
+ Inheritance, Abstraction, Polymorphism, Encapsulation 
+
+
+Pointer Manipulation --- ?????
+
+
+1) Explicit pointer manipulation is not allowed  in JAVA
+2) Implicit pointer manipulation is allowed in JAVA (User defined data types/derived data type)
+
+
+
+Employee emp = new Employee();   //Creating and Initializing a Employee Object
+
+Employee emp; //creating an object reference 
+
+emp = new Employee(); // creating an object in heap area, allocate memory and assign the memory address to the object reference.
+
+Class == Is a Blue Print
+Object == Instance of a class
+
+ProCircle = Protractor   
+
+1) you need to draw circle
+
+
+public Employee {
+  int id;
+String name;
+String email;
+}
+
+
+Employee emp1 = new Employee(100, "abc",abc@gmail.com");
+Employee emp2 = new Employee(101, "xyz","xyz@gmail.com");
+
+
+
+Foreign (French)
+0) Reference Lang (English/Mother Tongue)
+1) alphabets 
+2) words 
+3) sentences (grammer)
+4) improve vocabulary.... 
+
+JAVA
+1) alphabets, symbols, operators, special characters
+2) keywords 
+3) small programs (syntax) 
+4) adv concepts 
+
+
+A-Z,a-z,0-9, (), {}, [], +-*/%, ++, --, ?, . ->, <,>,<=,>=,=,==, AND, OR, NOT, &&, ||, 
+int, if, class, (java is a case sensitive lang) keyword are all in small case only
+
+statement, expression 
+control statements (iterative/repeative/looping, conditional [if,else, switch])
+Object , oop,
+
+
+Inheritance  (base/parent/super, sub/derived/child class) extends
+Abstraction (using abstract keyword & interfaces) - Hiding the implementation -- incomplete -- World Map, India Map,State Map
+Polymorphism - Reusing the code - [static /overloading& dynamic/overriding] 
+Encapsulating -- Hiding the data (class you will be private data & public methods)
+
+
+Class = properties & methods [state/behaviours] [member variables/ member methods]
+
+
+access modifiers -- private properties and public methods 
+
+Exception Handling, (try, catch, finally, throws, throw)
+
+Thread ( Thread, Runnable) 
+
+File, I&O
+
+Scanner 
+
+Serialization & De-Serialization -- Storing the state (property) in a flat file(permanent storage) of the object
+
+
+type casting - converting one primite data type to another primitive data type (explicit/widening) implicit/narrowing
+
+Boxing - converting primitive to it's corresponding object 
+
+
+Wrapper Classes 
+boolean - Boolean
+byte  - Byte
+char - Character
+short -Short
+int - Integer
+float - Float
+double -Double
+long - Long 
+
+
+String to any primitve == Wrapper class
+
+String value ="10";
+
+int a = Integer.parseInt(value);
+
+String - immutable (Non-modifiable)
+
+StringBuffer/StringBuilder 
+
+Collection (List,Set, Map)
+
+
+
+
+
+
