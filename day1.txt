@@ -9,6 +9,19 @@ To Create/Initialize a local git repository
 git init 
 
 
-working Area
-staging area
-repo area
+working Area   - a folder in your OS which is having .git folder in it
+staging area   - It's a temporary location used by git before commiting
+repo area      - All tracking files & folders
+
+
+
+Git Commands
+
+1) git init
+2) git status
+3) git add <filename> or . - to add the contents to staging area
+4) git rm <filename>     -- to unstage to working area
+5) git commit -m "commit message"
+6) git config --global user.name "siva"
+7) git config --global user.email "siva@gmail.com"
+
