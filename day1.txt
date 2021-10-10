@@ -24,4 +24,7 @@ Git Commands
 5) git commit -m "commit message"
 6) git config --global user.name "siva"
 7) git config --global user.email "siva@gmail.com"
+8) git commit -a -m "commit message"   -- to add and commit at the same time
+9) git log
+10) git diff <commit_id1> <HEAD/commit_id2>
 
