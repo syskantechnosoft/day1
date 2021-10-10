@@ -1,0 +1,14 @@
+Repository - Place where all the files & folders of the project will be stored/saved
+
+Local Repository (A Folder in the Local File System)
+
+Remote Repository (A URL in the web) .git -- git remote repository
+
+
+To Create/Initialize a local git repository
+git init 
+
+
+working Area
+staging area
+repo area
